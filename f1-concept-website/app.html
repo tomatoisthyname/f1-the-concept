@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>F1 [The Concept]</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="app.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks" style="overflow:hidden">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li> <!-- anchor tag to make link clickable -->
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">TEAMS</a></li>
+                        <li><a href="">JOBS</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box" style="overflow:hidden">
+                <h1>The World's Fastest Sport</h1>
+
+                <p>Experience the ultimate thrill of Formula 1—where cutting-edge technology <br> meets fearless skill, 
+                    propelling cars to breathtaking speeds around every twist and turn.<br>
+                    It's high-octane drama and precision engineering at its finest, delivering heart-pounding <br> excitement 
+                    that keeps millions on the edge of their seats worldwide.
+                </p>
+
+                <a href="" class="hero-btn">Learn About the Teams</a>
+            </div>
+        </section>
+
+        <!-- Tech -->
+         <section class="tech">
+            <h1>Industry-Breaking Technology</h1>
+            <p>From the best minds in the sporting world.</p>
+
+            <div class="row">
+                <div class="col">
+                    <h3>V6 Hybrid Turbocharged Engines</h3>
+                    <p>These power units have a 1.6-liter capacity and generate around 1000 horsepower, enabling the cars to reach speeds of over 220 mph (354 kph). 
+                        Formula 1 engines recover and reuse heat energy, thanks to the Energy Recovery System (ERS). 
+                        This innovation not only boosts power but also makes F1 cars more environmentally friendly. </p>
+                </div>
+                <div class="col">
+                    <h3>Carbon Fiber Chassis</h3>
+                    <p>The chassis of a Formula 1 car is a masterpiece of engineering and safety. 
+                        Formula 1 cars are designed in a highly specialized and intricate manner to optimize their performance on the racetrack. 
+                        It's usually constructed from carbon fiber composites, making it incredibly strong and lightweight.</p>
+                </div>
+                <div class="col">
+                    <h3>Telemetry: A Continuous Feedback Loop</h3>
+                    <p>Formula 1 cars generate an astonishing amount of data during a race.  
+                        Hundreds of sensors collect information on the car's performance, including temperature, tire pressure, 
+                        engine performance, and more. 
+                        This data is transmitted to the pit crew in real time, 
+                        enabling them to make split-second decisions about the car's setup and strategy. </p>
+                </div>
+            </div>
+        <!-- campus -->
+         </section>
+            
+         <section class="campus">
+            <h1>Our Global Campus</h1>
+            <p>
+                text about our global campus
+            </p>
+
+            <div class="row">
+                <div class="campus-col">
+                    <img src="images/russel.jpeg">
+                    <div class="layer">
+                        <h3>TALENT</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/old-mcl.webp">
+                    <div class="layer">
+                        <h3>LEGACY</h3>
+                    </div>
+                </div>
+                <div class="campus-col">
+                    <img src="images/track.webp">
+                    <div class="layer">
+                        <h3>MEMORIES</h3>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- facilities -->
+         <section class="facilities">
+            <h1>Our Facilities</h1>
+            <p>desc of facilities or whatev</p>
+
+            <div class="row"> 
+                <div class="facilities-col">
+                    <img src="images/.png">
+                    <h3>World Class Library</h3>
+                    <p>text text blah blah blah</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/.png">
+                    <h3>World Class Library</h3>
+                    <p>text text blah blah blah</p>
+                </div>
+                <div class="facilities-col">
+                    <img src="images/.png">
+                    <h3>World Class Library</h3>
+                    <p>text text blah blah blah</p>
+                </div>
+            </div>
+         </section>
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.width = "250px";
+            }
+            function hideMenu(){
+                navLinks.style.width = "0"
+            }
+        </script>
+    </body>
+</html>
