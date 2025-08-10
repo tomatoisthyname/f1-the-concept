@@ -4,10 +4,10 @@ Tools such as team/user and driver/user matching as well as driver performance p
 
 ## Tools and Technologies
 This website would not be possible without the many free and usually open-source techonolgies procured by the Formula One community. These include:
-- FastF1 API
-- Currently the only one I can think of right now! 
+  - FastF1 API
+  - Currently the only one I can think of right now! 
 
-## Contribution
+## Contributions
 Contributions are welcome, as this is an open-source and community project. Please open a discussion discussing your ideas and complete pull requests in a timely manner. Please bear with me, as I am not a coding god; my questions are not questions of criticism or scrutiny, but rather (most likely) a need for better understanding :D 
 
 Descriptive commits are important! Please follow the widely-used git commit standard outlined here: https://www.conventionalcommits.org/en/v1.0.0/
